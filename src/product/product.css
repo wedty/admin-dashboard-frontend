@@ -1,0 +1,134 @@
+.product{
+    flex: 4;
+    
+}
+
+.prodTitleDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.addProdBtn{
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: rgb(19, 194, 194);;
+    /* background-color: teal; */
+    border-radius: 5px;
+    cursor:  pointer;
+    color: white;
+    font-size: 18px;
+}
+
+.prodTop{
+    display: flex;align-items: center;
+
+}
+.prodChart, .prodDetails{
+    flex: 2;
+}
+
+.prodDetails{
+    flex:1;
+    padding: 20px;
+    margin: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+.prodInfoTop{
+    display: flex;
+    align-items: center;
+}
+
+.productTopImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.prodTopName{
+font-weight: 600;
+}
+
+
+.productInfoBottom {
+    margin-top: 10px;
+  }
+
+.prodInfoItem{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.prodItemValue{
+    font-weight: 300;
+}
+
+.prodBottom{
+    padding: 20px;
+    margin: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.prodForm{
+    display: flex;
+    justify-content: space-between;
+}
+.prodFormLeft{
+    display: flex;
+    flex-direction: column;
+}
+
+.prodFormLeft>label{
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.prodFormLeft>input{
+    margin-bottom: 10px;
+    border: none;
+    padding: 5px;
+    border-bottom: 1px solid gray;
+}
+
+.prodFormLeft >select{
+    margin-bottom: 10px;
+    color: gray;
+  }
+
+.prodUplodImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.prodFormRight{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.prodUpload{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.prodUpdateBtn{
+/* .prodUpdateBtn{ */
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    
+    background-color: darkblue;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}

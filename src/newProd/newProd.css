@@ -1,0 +1,60 @@
+.newProd{
+    flex: 4;
+    
+}
+
+.newProdForm{
+    margin-top: 20px;
+
+}
+
+
+.newProdDiv{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+
+
+.newProdDiv>label{
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(151, 150, 150);
+}
+
+.newProdDiv>input{
+height: 40px;
+padding: 10px;
+font-size: 18px;
+/* border: 1px solid gray;
+border-radius: 5px; */
+}
+
+
+
+.prodActiveSelect{
+    height: 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    /* color:     color: rgb(151, 150, 150);; */
+        color: rgb(151, 150, 150);
+    padding: 10px;
+}
+
+.newProdAddBtn{
+    width: 200px;
+    border: none;
+    background-color: darkblue;
+    
+    color: white;
+    padding: 7px 10px;
+
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
